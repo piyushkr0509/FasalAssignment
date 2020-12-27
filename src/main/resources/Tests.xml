@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HP Malaicha - Staging">
+
+
+
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="http://automationpractice.com/index.php"/>
+
+
+
+    <test name="Regression Run">
+        <classes>
+            <class name="ApiTests"/>
+            <class name="AutomationPracticeTest"/>
+        </classes>
+    </test>
+
+
+</suite>
